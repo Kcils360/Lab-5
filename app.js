@@ -71,11 +71,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // TODO: Write your code here
 var testArray = [2,3,4]; //eslint-disable-line
-
 function sumArray(testArray){ //eslint-disable-line
-var array1 = []
-
-var answer[arraySum, '2,3,3 was passed in as an array of numbers, and 9 is their sum']
+var arraySum1 = sum(testArray[0],testArray[1]);
+var arraySum2 = sum(testArray[2],arraySum1[0]);
+var ansString = testArray[0],testArray[1],testArray[2] + ' was passed in as an array of numbers, and ' + arraySum2[0] + 'is their sum.';
+return [arraySum2[0],ansString]
 }
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
