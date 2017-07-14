@@ -48,9 +48,20 @@ Test this function by hand in the console to get it working, and when you think 
 
 // TODO: Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
+var resultAdd = function sum(a,b,c){
 
+  return [a+b+c, a*b*c, a + ' and ' + b + ' and ' + c + ' sum to' + result + '.','The product of' + a + ' and ' b ' and ' c ' is ' result '.']
 }
 
+
+
+
+function sum(a,b){ //eslint-disable-line
+var result = a + b;
+var message = 'The sum of ' + a + ' and ' + b + ' is ' + result + '.';
+return [result, message];
+
+}
 // TODO: Here is the test for sumAndMultiply(); uncomment it to run it
 // testSumAndMultiply(4,7,5);
 
