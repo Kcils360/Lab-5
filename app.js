@@ -48,9 +48,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // TODO: Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
-var resultAdd = function sum(a,b,c) {
-var resultProd = function multiply(a,b,c);
-var  [a+b+c, a*b*c, a + ' and ' + b + ' and ' + c + ' sum to' + result + '.','The product of' + a + ' and ' b ' and ' c ' is ' result '.']
+
+var result3 = [sumABC, prodABC, a + ' and ' + b + ' and ' + c + ' sum to' + resultAdd + '.','The product of' + a + ' and ' b ' and ' c ' is ' resultProd '.']
 }
 
 
