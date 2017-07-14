@@ -105,4 +105,8 @@ testMultiplyArray(2,3,4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
 
-document.getElementById('sum').innerHTML = sum(4,7);
+document.getElementById('sum').innerHTML = sum(4,7)[1];
+document.getElementById('').innerHTML = sum(4,7)[1];
+document.getElementById('').innerHTML = sum(4,7)[1];
+document.getElementById('').innerHTML = sum(4,7)[1];
+document.getElementById('').innerHTML = sum(4,7)[1];
